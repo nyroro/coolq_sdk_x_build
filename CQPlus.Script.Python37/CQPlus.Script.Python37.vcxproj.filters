@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib_python37">
+      <UniqueIdentifier>{9784c29d-457a-406f-a220-05aa293d4491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_python37\include">
+      <UniqueIdentifier>{b16ccfd4-1abd-421e-b878-c203130173e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_python37\include\internal">
+      <UniqueIdentifier>{a7d5790f-5579-4ae8-b76e-997e0954926a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_python37\libs">
+      <UniqueIdentifier>{0b28af6d-a558-41e2-af05-83784be23c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_python27">
+      <UniqueIdentifier>{5d7b1629-7b95-4292-a618-d3768e131a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_python27\include">
+      <UniqueIdentifier>{bd84cf72-d2dc-46cb-a2e0-fd4306ed264d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_python27\libs">
+      <UniqueIdentifier>{4a3ddb98-321a-4a0e-95fc-523a372ea9ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="script_engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\ceval.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\condvar.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\context.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\gil.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\hamt.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\hash.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\import.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\mem.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\pygetopt.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\pystate.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\internal\warnings.h">
+      <Filter>lib_python37\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\abstract.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\accu.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\asdl.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\ast.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\bitset.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\bltinmodule.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\boolobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\bytearrayobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\bytes_methods.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\bytesobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\cellobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\ceval.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\classobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\code.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\codecs.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\compile.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\complexobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\context.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\datetime.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\descrobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\dictobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\dtoa.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\dynamic_annotations.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\enumobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\errcode.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\eval.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\fileobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\fileutils.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\floatobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\frameobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\funcobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\genobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\graminit.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\grammar.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\import.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\intrcheck.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\iterobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\listobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\longintrepr.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\longobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\marshal.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\memoryobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\metagrammar.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\methodobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\modsupport.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\moduleobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\namespaceobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\node.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\object.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\objimpl.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\odictobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\opcode.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\osdefs.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\osmodule.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\parsetok.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\patchlevel.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pgen.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pgenheaders.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\py_curses.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyarena.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyatomic.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pycapsule.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyconfig.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyctype.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pydebug.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pydtrace.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyerrors.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyexpat.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyfpe.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyhash.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pylifecycle.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pymacconfig.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pymacro.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pymath.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pymem.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pyport.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pystate.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pystrcmp.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pystrhex.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pystrtod.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\Python.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\Python-ast.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pythonrun.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pythread.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\pytime.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\rangeobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\setobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\sliceobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\structmember.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\structseq.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\symtable.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\sysmodule.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\token.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\traceback.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\tupleobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\typeslots.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\ucnhash.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\unicodeobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\warnings.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python37\include\weakrefobject.h">
+      <Filter>lib_python37\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\abstract.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\asdl.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\ast.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\bitset.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\boolobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\bufferobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\bytearrayobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\bytes_methods.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\bytesobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\cellobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\ceval.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\classobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\cobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\code.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\codecs.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\compile.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\complexobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\cStringIO.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\datetime.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\descrobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\dictobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\dtoa.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\enumobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\errcode.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\eval.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\fileobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\floatobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\frameobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\funcobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\genobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\graminit.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\grammar.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\import.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\intobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\intrcheck.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\iterobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\listobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\longintrepr.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\longobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\marshal.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\memoryobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\metagrammar.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\methodobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\modsupport.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\moduleobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\node.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\object.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\objimpl.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\opcode.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\osdefs.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\parsetok.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\patchlevel.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pgen.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pgenheaders.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\py_curses.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pyarena.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pycapsule.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pyconfig.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pyctype.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pydebug.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pyerrors.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pyexpat.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pyfpe.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pygetopt.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pymacconfig.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pymactoolbox.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pymath.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pymem.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pyport.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pystate.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pystrcmp.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pystrtod.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\Python.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\Python-ast.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pythonrun.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\pythread.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\rangeobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\setobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\sliceobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\stringobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\structmember.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\structseq.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\symtable.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\sysmodule.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\timefuncs.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\token.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\traceback.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\tupleobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\ucnhash.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\unicodeobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\warnings.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_python27\include\weakrefobject.h">
+      <Filter>lib_python27\include</Filter>
+    </ClInclude>
+    <ClInclude Include="script_engine_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="api.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="script_engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="api_funcs.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib_python37\libs\python3.lib">
+      <Filter>lib_python37\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python37\libs\python37.lib">
+      <Filter>lib_python37\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_bsddb.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_ctypes.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_ctypes_test.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_elementtree.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_hashlib.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_msi.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_multiprocessing.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_socket.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_sqlite3.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_ssl.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_testcapi.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\_tkinter.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\bz2.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\libpython27.a">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\pyexpat.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\python27.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\select.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\unicodedata.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+    <Library Include="..\lib_python27\libs\winsound.lib">
+      <Filter>lib_python27\libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

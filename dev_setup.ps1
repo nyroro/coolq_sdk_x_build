@@ -3,6 +3,7 @@
 Set-Location vcpkg\vcpkg-2020.04
 # ./bootstrap-vcpkg.bat
 $IntegrateResult = ./vcpkg integrate project
+Write-Output $IntegrateResult
 $InstallCmd = ($IntegrateResult -split "\n")[-2].Trim()
 Write-Output $InstallCmd
 
