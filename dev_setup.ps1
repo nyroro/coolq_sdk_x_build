@@ -11,7 +11,6 @@ Set-Location ../..
 $Install_Shell = @"
 $InstallCmd -Project coolq_sdk_x
 $InstallCmd -Project CQPlus.Api
-$InstallCmd -Project CQPlus.Script.Python27
 $InstallCmd -Project CQPlus.Script.Python37
 
 Set-Location vcpkg\vcpkg-2020.04
