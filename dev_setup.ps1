@@ -15,7 +15,7 @@ $InstallCmd -Project CQPlus.Script.Python27
 $InstallCmd -Project CQPlus.Script.Python37
 
 Set-Location vcpkg\vcpkg-2020.04
-.\vspkg install boost-algorithm libiconv
+.\vcpkg install boost-algorithm libiconv
 "@
 
 
